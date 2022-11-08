@@ -54,19 +54,19 @@ p{
 /* Button styling */
 .btn {
     position: absolute;
-    bottom: -20px;
-    right: -20px;
+    
+    right: 205px;
     border: none;
     outline: none;
     display: flex;
     align-items: center;
     background-color: #fc9400;
-    color: $primary-color;
-    padding: 22px 45px;
-    font-size: 1rem;
+    color: white;
+    padding:22px 45px;
+    font-size:1rem;
     text-transform: uppercase;
     border-radius: $border-radius;
-    cursor: pointer;
+    cursor:pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
 }
     i {
