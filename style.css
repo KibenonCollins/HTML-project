@@ -1,0 +1,10 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    place-items: centre;
+    min-height: 100vh;
+    display: grid;
+}
+.spaghetti img{
+    height: 500px;
+    border-radius: 15px;;
+}
