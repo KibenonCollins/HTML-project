@@ -11,27 +11,66 @@ body{
     background-color: #854d27;
 }
 .container{
-    align-items: center;
-    background-color:antiquewhite;
-    height:900px ;
-    width: 1000px ;
-    margin: auto;
-    grid-template-columns: 300px 600px;
     
+    background-color:antiquewhite;
+    animation-name: color;
+    animation-duration: 4s;
+    margin: 10%;
+}
+@keyframes color {
+    from {background-color: antiquewhite;}
+    to {background-color: white;}
+  }
+h1{
+    color:#351897;
+}
+p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 .spaghetti img{
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;;
+    height: 490px;
+    width: 415px;
+    
+   
 }
+.container span{
+    font-size: 0.8rem;
+  color: #ffa800;
+  margin: -5px 0 20px;
+  transition: ease-in
+}
+
 .container{
     display: flex;
 }
 .describe{
-    line-height: 1.5;
-    padding: 5px;
+    padding: 47px ;
     
 }
-.describe h2{
-    color:bisque
+
+
+/* Button styling */
+.btn {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background-color: #fc9400;
+    color: $primary-color;
+    padding: 22px 45px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: $border-radius;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
 }
+    i {
+     margin-left: 20px;
+     font-size: 1.5rem;
+    }
+   
