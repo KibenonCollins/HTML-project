@@ -1,10 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Noto Sans', sans-serif;
     place-items: centre;
-    min-height: 100vh;
-    display: grid;
+    /* min-height: 100vh; */
+    display: flex;
+    background-color: #854d27;
+}
+.container{
+    align-items: center;
+    background-color:antiquewhite;
+    height:900px ;
+    width: 1000px ;
+    margin: auto;
+    grid-template-columns: 300px 600px;
+    
 }
 .spaghetti img{
-    height: 500px;
+    height: 300px;
+    width: 300px;
     border-radius: 15px;;
+}
+.container{
+    display: flex;
+}
+.describe{
+    line-height: 1.5;
+    padding: 5px;
+    
+}
+.describe h2{
+    color:bisque
 }
